@@ -13,10 +13,11 @@ node_ip_arr=("your_serve_ip_1" "your_serve_ip_2" "your_serve_ip_3" "your_serve_i
 ```
 
 > 数组内容为 4 个 字符串，以空格隔开。
+>
 > 注意，为了方便记忆和区分，最好将四台服务器的 label 在 VPS 的管理端设置为 neo1~4
 >
 > 因为该脚本是用作搭建用于开发的私链，所以直接在脚本内部内置了 4 个 钱包文件，节点(IP) 和 节点钱包
-> 按照数组下标来对应，即 node_ip_arr[0] 和 wallet1 对应、node_ip_arr[1] 和 wallet2 对应。
+> 按照各自锁在数组下标来对应，即 node_ip_arr[0] 和 wallet1 对应、node_ip_arr[1] 和 wallet2 对应。
 > 这也是为什么上面建议用 label neo1~4 来进一步区分各台服务器
 
 然后将该脚本分别拷贝至 4 台 服务器，分别在 4 台 服务器上运行该脚本:
