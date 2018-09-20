@@ -40,3 +40,7 @@ chmod u+x ./setup.sh
 需要注意的是，一旦连接到会话则不应该通过 `ctrl+c` 来退出，除非确实需要这样做。因为这样会直接导致该 session 被终止，进而终止运行于其中的 neo-cli。如果需要再次将 session 放到后台执行，则可以通过先按下 `ctrl+a` 然后再按下 `d` 即可。
 
 更多的 screen 命令示例可以参考 [screen](https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/)
+
+## 提取 Gas
+
+提取 Gas 的部分，参考 [neo-gui](https://github.com/BDNTeam/neo-private-chain/blob/master/neo-gui.md)
