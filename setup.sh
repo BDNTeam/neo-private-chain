@@ -52,7 +52,7 @@ install () {
   mkdir -p $neo_dir
 
   local zip="/tmp/$(uuidgen)"
-  wget -O $zip https://github.com/neo-project/neo-cli/releases/download/v2.8.0/neo-cli-linux-x64.zip
+  wget -O $zip https://github.com/neo-project/neo-cli/releases/download/v2.9.0/neo-cli-linux-x64.zip
 
   local tmp="/tmp/$(uuidgen)"
   mkdir $tmp
@@ -158,7 +158,7 @@ EOF
     "ApplicationConfiguration": {
       "Paths": {
         "Chain": "Chain_{0}",
-        "ApplicationLogs": "ApplicationLogs_{0}"
+        "Index": "Index_{0}"
       },
       "P2P": {
         "Port": 10333,
